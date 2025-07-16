@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://daysleft.site',
+    url: 'https://daysleft-countdown.netlify.app',
     name: 'daysleft.site'
   },
 
