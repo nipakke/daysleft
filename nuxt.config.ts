@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
 
   app: {
-    pageTransition: import.meta.dev && { name: 'page', mode: 'out-in' }
+    pageTransition: import.meta.dev ? undefined : { name: 'page', mode: 'out-in' }
   },
 
   site: {
