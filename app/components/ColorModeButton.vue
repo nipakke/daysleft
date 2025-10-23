@@ -1,10 +1,10 @@
 <template>
   <ClientOnly>
-    <UButton :aria-label="`Switch to ${nextTheme} mode`" :icon="`i-lucide-${nextTheme === 'dark' ? 'sun' : 'moon'}`"
+    <UButton :aria-label="`Switch to ${nextTheme} mode`" :icon="`lucide:${nextTheme === 'dark' ? 'sun' : 'moon'}`"
       color="neutral" variant="ghost" size="sm" class="rounded-full" @click="startViewTransition" />
     <template #fallback>
       <!-- <div class="size-4" /> -->
-      <UIcon name="i-lucide-sun" />
+      <UIcon name="lucide:sun" />
     </template>
   </ClientOnly>
 </template>
