@@ -41,4 +41,10 @@ export default defineNuxtConfig({
       "/countdown/**": { prerender: true },
     }
   },
+
+  icon: {
+    clientBundle: {
+      scan: true
+    }
+  }
 })
