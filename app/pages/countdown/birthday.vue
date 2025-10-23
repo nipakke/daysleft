@@ -13,12 +13,12 @@
             Enter your birthday:
           </div>
           <div class="flex gap-1">
-            <UButtonGroup class="w-full">
+            <UFieldGroup class="w-full">
               <USelect :items="months" v-model="selectedMonth" label-key="name" value-key="value"
                 class="min-w-30 w-full" placeholder="Month" />
               <UInputNumber class="max-w-32" :min="1" :max="maxDaysInSelectedMonth" placeholder="Day"
                 v-model="selectedDay" />
-            </UButtonGroup>
+            </UFieldGroup>
           </div>
         </div>
       </UCard>
