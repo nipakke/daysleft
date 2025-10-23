@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
   css: ["~/assets/css/main.css"],
-  modules: ["@nuxt/ui-pro", "nuxt-time", "nuxt-og-image"],
+  modules: ["@nuxt/ui", "nuxt-time", "nuxt-og-image"],
 
 
   app: {

@@ -19,7 +19,6 @@
 </template>
 
 <script setup lang="ts">
-import type { PageFeatureProps } from "#ui-pro/types"
 import { EVENTS } from "~~/data/events"
 
 
